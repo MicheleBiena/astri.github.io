@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-image: url("/tcg-devices-bg.jpg");
+  background-image: url("tcg-devices-bg.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
