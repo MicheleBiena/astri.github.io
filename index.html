@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebApp Random Image</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="title">ASTRI DI HOENN</div>
-      <div class="subtitle">PACK RANDOMIZER</div>
+      <div class="title crete-round-regular">ASTRI DI HOENN</div>
+      <div class="subtitle crete-round-regular">PACK RANDOMIZER</div>
       <div id="imageContainer" class="image-container">
         <img
           src="charizard.jpg"
@@ -30,7 +36,9 @@
           id="image3"
         />
       </div>
-      <button id="randomButton">Scegli il tuo pack</button>
+      <button id="randomButton" class="crete-round-regular">
+        Scegli il tuo pack
+      </button>
     </div>
 
     <script src="script.js"></script>

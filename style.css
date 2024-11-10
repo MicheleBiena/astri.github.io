@@ -16,6 +16,18 @@ body {
   overflow: hidden;
 }
 
+.crete-round-regular {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.crete-round-regular-italic {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 .container {
   justify-content: space-evenly;
   text-align: center;
@@ -45,7 +57,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 #randomButton:hover {
