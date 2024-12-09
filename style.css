@@ -34,15 +34,15 @@ body {
   flex-grow: 1;
 }
 
-.title {
-  margin-top: 60px;
-  font-size: 32px;
-  font-weight: bold;
-  user-select: none;
+.header-image {
+  width: 50%; /* Occupa circa la stessa larghezza degli altri elementi */
+  max-width: 200px; /* Evita che diventi troppo grande */
+  height: auto; /* Mantieni le proporzioni */
+  display: block;
+  margin: 0 auto 20px auto; /* Centra l'immagine e aggiungi margine in basso */
 }
 
 .subtitle {
-  margin-top: 10px;
   font-size: 16px;
   font-weight: bold;
   user-select: none;
@@ -63,6 +63,7 @@ body {
 #randomButton:hover {
   background-color: #031949;
 }
+
 
 .image-container {
   display: flex;
