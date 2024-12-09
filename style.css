@@ -39,7 +39,7 @@ body {
   max-width: 200px; /* Evita che diventi troppo grande */
   height: auto; /* Mantieni le proporzioni */
   display: block;
-  margin: 0 auto 20px auto; /* Centra l'immagine e aggiungi margine in basso */
+  margin: 20px auto 20px auto; /* Centra l'immagine e aggiungi margine in basso */
 }
 
 .subtitle {
